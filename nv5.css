@@ -1,0 +1,515 @@
+body{
+    animation: gradient 15s ease infinite;
+    background: linear-gradient(-45deg, #663d31,#47723c, #23a5d5, #23d5ab) no-repeat;
+    background-size: 300% 300%;
+    color: blanchedalmond;
+
+}
+@keyframes gradient{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;       
+    }
+    100%{
+        background-position: 0% 50%; 
+    }
+}
+.h11{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold
+    /*font-family:courier,arial,helvetica;*/
+}
+.p11{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    
+}
+.txbran{
+    color: ivory;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.fundo1{
+    background-color: rgba(173, 216, 230, 1);
+    color: rgb(22, 29, 36);
+    border: none;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 16px 32px;
+    text-align: center;
+   /* font-size: 16px; */
+    margin: 4px 2px;
+    transition: 0.7s;
+
+}
+.fundo1:hover{
+    background-color: #435783;
+    color: white;
+    
+}
+
+.fundo2{
+    border: none;
+    color: black; 
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.7s;
+    border-top-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.fundo2:hover{
+    background-color: #6D7993;
+    color: white;
+    
+}
+
+.fundo3{
+    background-color: rgb(173, 230, 182);
+    color: rgb(22, 36, 22);
+    border: none;
+    border-top-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 16px 32px;
+    text-align: center;
+   /* font-size: 16px; */
+    margin: 6px 4px;
+    transition: 0.7s;
+
+}
+.fundo3:hover{
+    background-color: #435983;
+    color: white;
+    
+}
+.fundo4{
+    
+   
+    border-top-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+   
+    text-align: center;
+   /* font-size: 16px; */
+   
+    transition: 0.1s;
+
+}
+.fundo4:hover{
+    background-color: rgba(173, 216, 230, 1);
+    color: rgb(22, 36, 22);
+    
+}
+
+
+
+
+
+.tamCarr{
+    width: auto;
+    max-height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.bordaVerde{
+    border-style: groove;
+    border: lawngreen;
+}
+.tam1{
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+    margin: 5px;
+    border: 10px;
+    border-style:groove;
+    border-color: seashell;
+}
+.tam2{
+    width: 350px;
+    height: 250px;
+    object-fit: fill;
+    margin: 5px;
+    border: 5px;
+    border-style:double;
+    border-color: chartreuse;
+}
+.tam3{
+    width: 250px;
+    height: 350px;
+    object-fit: fill;
+    padding: 4px;
+    margin: 5px;
+    border: 5px;
+    border-style:inset;
+    border-color: chartreuse;
+
+}
+.tam4{
+    width: 350px;
+    height: 300px;
+    object-fit: fill;
+    padding: 4px;
+    border-style: groove;
+    border-color: rgb(129, 141, 117);
+}
+.tamnot{
+    width: 500px;
+    height: 350px;
+    object-fit: fill;
+    margin: 5px;
+    border: 5px;
+    border-style:double;
+    border-color: chartreuse;
+}
+.ftnot{
+    border-radius: 3px;
+}
+.pnot{
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+}
+.icone{
+    width: 50px;
+    height: 50px;
+}
+.bold{
+    font-weight: bold;
+}
+.bolder{
+    font-weight: bolder;
+}
+.borda{
+    width: 350px;
+    height: 350px;
+    object-fit: fill;
+    margin: 5px;
+    border: 5px;
+    border-style:double;
+    border-color: chartreuse;    
+
+}
+
+.collapsible {
+    background-color: rgba(67, 87, 131, .5);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    border-radius: .25rem;
+    border-top-right-radius: 100px;    
+    border-top-left-radius: 100px;
+  }
+
+
+  .collapsible2 {
+    background-color: rgba(67, 87, 131, .5);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    border-radius: .25rem;
+    border-bottom-right-radius: 100px;    
+    border-bottom-left-radius: 100px;
+  }
+
+
+
+  
+  .active, .collapsible:hover {
+    background-color: #555;    
+    transition: 0.7s;
+  }
+  .active2, .collapsible2:hover {
+    background-color: #555;    
+    transition: 0.7s;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: rgba(123, 321, 123, .3);
+  }
+  .card1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    color: seashell;
+    background-color: rgba(67, 87, 131, .5);
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    border-bottom-right-radius: 100px;
+}
+
+.imgcar{
+    height: 500px;
+    width: auto;
+}
+.imgcar2{
+    height: 630px;
+    width: 100px;
+}
+
+.zoom {
+    
+    transition: transform .2s; /* Animation */
+    
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.mc{
+    margin-top: 30px;
+}
+.tamesq{
+    width: 600px;
+    height: 700px;
+}
+
+
+
+/* Hover para as tecnologias*/
+
+.hidetec {
+    display: none;
+}
+      
+  .myDIVtec:hover + .hidetec {
+    display: block;
+    color: rgb(230, 213, 213);
+}
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+.body1 {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+}
+
+.section {
+	background-color: #0000FF;
+	height: 100px;
+	line-height: 300px;
+}
+
+.section-2 { background-color: #00FF00;}
+.section-3 { background-color: #8D38C9;}
+.section-4 { background-color: #2a4b23;}
+
+.loader {
+	position: relative;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+}
+
+/*	$Loader Quadrant
+	========================================================================== */
+
+.loader-quart {
+	border-radius: 50px;
+	border: 6px solid rgba(255,255,255,0.4);
+}
+
+.loader-quart:after {
+	content: '';
+	position: absolute;
+	top: -6px; 
+	left: -6px;
+	bottom: -6px;
+	right: -6px;
+	border-radius: 50px;
+	border: 6px solid transparent;
+	border-top-color: #fff;
+	-webkit-animation: spin 1s linear infinite;
+	animation: spin 1s linear infinite;
+}
+
+/*	$Loader Double circle
+	========================================================================== */
+
+.loader-double {
+	border-radius: 50px;
+	border: 6px solid transparent;
+	border-top-color: #fff;
+	border-bottom-color: #fff;
+	-webkit-animation: spin 1.5s linear infinite;
+	animation: spin 1.5s linear infinite;
+}
+
+.loader-double:before,
+.loader-double:after {
+	content: '';
+	position: absolute;
+	top: 5px; 
+	left: 5px;
+	bottom: 5px;
+	right: 5px;
+	border-radius: 50px;
+	border: 6px solid transparent;
+	border-top-color: #fff;
+	border-bottom-color: #fff;
+	filter: alpha(opacity=6);
+	     -khtml-opacity: .6;
+	       -moz-opacity: .6;
+	            opacity: .6;
+	-webkit-animation: spinreverse 2s linear infinite;
+	animation: spinreverse 2s linear infinite;
+}
+
+.loader-double:before {
+	top: 15px; 
+	left: 15px;
+	bottom: 15px;
+	right: 15px;
+	-webkit-animation: spinreverse 3s linear infinite;
+	animation: spinreverse 3s linear infinite;
+}
+
+/*	$Loader Multiple circle
+	========================================================================== */
+
+.loader-circles {
+	border-radius: 50px;
+	border: 3px solid transparent;
+	border-top-color: #fff;
+	-webkit-animation: spin 1s linear infinite;
+	animation: spin 1s linear infinite;
+}
+
+.loader-circles:before,
+.loader-circles:after {
+	content: '';
+	position: absolute;
+	top: 5px; 
+	left: 5px;
+	bottom: 5px;
+	right: 5px;
+	border-radius: 50px;
+	border: 3px solid transparent;
+	border-top-color: #fff;
+	filter: alpha(opacity=8);
+	     -khtml-opacity: .8;
+	       -moz-opacity: .8;
+	            opacity: .8;
+	-webkit-animation: spinreverse 5s linear infinite;
+	animation: spinreverse 5s linear infinite;
+}
+
+.loader-circles:before {
+	top: 12px; 
+	left: 12px;
+	bottom: 12px;
+	right: 12px;
+	-webkit-animation: spinreverse 10s linear infinite;
+	animation: spinreverse 10s linear infinite;
+}
+
+/*	$Loader Bars
+	========================================================================== */
+
+.loader-bars:before,
+.loader-bars:after,
+.loader-bars span {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 10px;
+	height: 30px;
+	background-color: #fff;
+	-webkit-animation: grow 1.5s linear infinite;
+	animation: grow 1.5s linear infinite;
+}
+
+.loader-bars:after {
+	left: 15px;
+	-webkit-animation: grow 1.5s linear -.5s infinite;
+	animation: grow 1.5s linear -.5s infinite;
+}
+
+.loader-bars span {
+	left: 30px;
+	-webkit-animation: grow 1.5s linear -1s infinite;
+	animation: grow 1.5s linear -1s infinite;
+}
+
+@-webkit-keyframes grow {
+	0% { -webkit-transform: scaleY(0); transform: scaleY(0); opacity: 0;}
+	50% { -webkit-transform: scaleY(1); transform: scaleY(1); opacity: 1;}
+	100% { -webkit-transform: scaleY(0); transform: scaleY(0); opacity: 0;}
+}
+
+@keyframes grow {
+	0% { -webkit-transform: scaleY(0); transform: scaleY(0); opacity: 0;}
+	50% { -webkit-transform: scaleY(1); transform: scaleY(1); opacity: 1;}
+	100% { -webkit-transform: scaleY(0); transform: scaleY(0); opacity: 0;}
+}
+
+@-webkit-keyframes spin {
+  	0%{ -webkit-transform: rotate(0deg); tranform: rotate(0deg);}
+	100%{ -webkit-transform: rotate(360deg); tranform: rotate(360deg);}
+}
+
+@keyframes spin {
+	0%{ -webkit-transform: rotate(0deg); transform: rotate(0deg);}
+	100%{ -webkit-transform: rotate(360deg); transform: rotate(360deg);}
+}
+
+@-webkit-keyframes spinreverse {
+  	0%{ -webkit-transform: rotate(0deg); tranform: rotate(0deg);}
+	100%{ -webkit-transform: rotate(-360deg); tranform: rotate(-360deg);}
+}
+
+@keyframes spinreverse {
+	0%{ -webkit-transform: rotate(0deg); transform: rotate(0deg);}
+	100%{ -webkit-transform: rotate(-360deg); transform: rotate(-360deg);}
+}
