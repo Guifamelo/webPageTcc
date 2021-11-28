@@ -319,6 +319,21 @@ body{
 
 
 
+.fundo5{
+    background-color: rgb(173, 230, 227);
+    color: rgb(22, 29, 36);
+    border: none;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 16px 32px;
+    text-align: center;
+   /* font-size: 16px; */
+    margin: 4px 2px;
+    transition: 0.7s;
+
+}
 
   
   
