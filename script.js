@@ -1,3 +1,14 @@
+
+  var senha = window.prompt('Digite a senha:')
+  var senha0 = 'senha123'
+  if(senha != senha0){
+     window.alert('Acesso Negado!')
+     // window.document.body.style.background = 'black'
+     document.body.style.display = 'none'            
+   }
+   
+
+
 //scroll, mas to usando do BS
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener("click", function (e) {
